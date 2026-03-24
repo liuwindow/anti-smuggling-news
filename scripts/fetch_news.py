@@ -1,116 +1,53 @@
 #!/usr/bin/env python3
 """
-反走私新闻聚合抓取脚本 v2
-使用 Google News / Bing News RSS + 国际新闻源
-解决 GitHub Actions 访问国内网站 403 的问题
+反走私新闻抓取脚本 v3
+使用 GDELT 全球新闻数据 + NewsAPI.org 免费 API
 """
 
-import json, re, time, hashlib, logging
+import json, re, time, hashlib, logging, urllib.parse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
-import feedparser
-from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 log = logging.getLogger(__name__)
 
 CST = timezone(timedelta(hours=8))
 
-# ── 关键词（中英双语）──
-KEYWORDS = [
-    '走私', '缉私', '反走私', '打私',
-    '海关查获', '海关缉私',
-    'smuggling', 'anti-smuggling', 'customs seizure',
-    'drug trafficking', 'wildlife trafficking', 'contraband',
-    'Interpol', 'WCO customs', 'seizure',
+KEYWORDS_EN = [
+    'smuggling', 'smuggler', 'contraband', 'drug trafficking',
+    'wildlife trafficking', 'ivory', 'poaching', 'customs seizure',
+    'illegal trade', 'counterfeit goods', 'money laundering',
+    'human trafficking', 'drugs seized', 'cocaine', 'heroin',
+    'methamphetamine', 'fentanyl', 'arms trafficking',
+]
+
+KEYWORDS_CN = [
+    '走私', '缉私', '打私', '偷逃税', '洗钱',
+    '象牙', '濒危物种', '毒品', '冻品',
 ]
 
 CATEGORY_RULES = [
-    ('international', ['Interpol', 'WCO', '跨国', '国际联合', 'international', 'overseas']),
-    ('customs',       ['海关', '缉私', 'customs', 'seizure', 'border']),
-    ('police',        ['公安', '警察', '侦破', '抓获', 'arrest', 'police']),
-    ('court',         ['法院', '检察', '判决', 'sentenced', 'court']),
-    ('policy',        ['规定', '条例', '法规', 'policy', 'regulation']),
+    ('international', ['Interpol', 'WCO', '跨国', 'overseas', 'international']),
+    ('customs',       ['customs', 'seizure', 'border', '海关', '缉私']),
+    ('police',        ['police', 'arrest', '公安', '抓获', '侦破']),
+    ('court',         ['court', 'sentenced', '法院', '判决']),
+    ('policy',        ['regulation', 'policy', '规定', '条例']),
     ('domestic',      []),
 ]
 
-RSS_SOURCES = [
-    # 国际新闻源（可从 GitHub Actions 访问）
-    {
-        'name': 'Reuters World',
-        'url': 'https://feeds.reuters.com/reuters/worldnews',
-        'category_hint': 'international',
-    },
-    {
-        'name': 'AP News World',
-        'url': 'https://feeds.apnews.com/apnews/worldnews',
-        'category_hint': 'international',
-    },
-    # Google News RSS（搜索结果）
-    {
-        'name': 'Google News - Smuggling',
-        'url': 'https://news.google.com/rss/search?q=smuggling+OR+anti-smuggling+OR+customs+seizure&hl=en-US&gl=US&ceid=US:en',
-        'category_hint': 'international',
-    },
-    {
-        'name': 'Google News - Wildlife',
-        'url': 'https://news.google.com/rss/search?q=wildlife+trafficking+OR+ivory+smuggling&hl=en-US&gl=US&ceid=US:en',
-        'category_hint': 'international',
-    },
-    {
-        'name': 'Google News - Drug',
-        'url': 'https://news.google.com/rss/search?q=drug+trafficking+china+OR+asia&hl=en-US&gl=US&ceid=US:en',
-        'category_hint': 'international',
-    },
-    # 国内可访问的新闻聚合
-    {
-        'name': 'BBC World',
-        'url': 'http://feeds.bbci.co.uk/news/world/rss.xml',
-        'category_hint': 'international',
-    },
-    {
-        'name': 'Al Jazeera',
-        'url': 'https://www.aljazeera.com/xml/rss/all.xml',
-        'category_hint': 'international',
-    },
-    # 英文中国新闻（可替代国内源）
-    {
-        'name': 'SCMP China News',
-        'url': 'https://www.scmp.com/rss/world/asia/china/feed',
-        'category_hint': 'domestic',
-    },
-    {
-        'name': 'Sixth Tone',
-        'url': 'https://www.sixthtone.com/rss.xml',
-        'category_hint': 'domestic',
-    },
-    # 英文反走私专业来源
-    {
-        'name': 'WCO News',
-        'url': 'https://www.wcoomd.org/en/media/press-room/wco-news.rss',
-        'category_hint': 'international',
-    },
-    {
-        'name': 'Interpol Notices',
-        'url': 'https://www.interpol.int/How-we-work/Notices/View-UN-Notices/rss',
-        'category_hint': 'international',
-    },
-]
-
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (compatible; AntiSmuggling-NewsBot/1.0; +https://github.com/liuwindow/anti-smuggling-news)',
-    'Accept-Language': 'en-US,en;q=0.9',
+    'User-Agent': 'Mozilla/5.0 AntiSmuggling-NewsBot/1.0',
 }
 
 
-def keyword_match(text: str) -> bool:
+def keyword_match(text):
     text_lower = text.lower()
-    return any(kw.lower() in text_lower for kw in KEYWORDS)
+    return any(kw.lower() in text_lower for kw in KEYWORDS_EN + KEYWORDS_CN)
 
 
-def classify(title: str, summary: str, hint: str = 'domestic') -> str:
+def classify(title, summary, hint='domestic'):
     text = title + ' ' + summary
     for cat, words in CATEGORY_RULES:
         if any(w in text for w in words):
@@ -118,59 +55,101 @@ def classify(title: str, summary: str, hint: str = 'domestic') -> str:
     return hint
 
 
-def make_id(title: str, source: str) -> str:
+def make_id(title, source):
     return hashlib.md5(f"{source}:{title}".encode()).hexdigest()[:12]
 
 
-def fetch_rss(source: dict) -> list:
+def fetch_gdelt(keyword='smuggling', max_results=50):
+    """GDELT Global News API - 免费，无需API Key"""
     articles = []
     try:
-        log.info(f"RSS: {source['name']}")
-        feed = feedparser.parse(source['url'], headers=HEADERS, timeout=15)
-        for entry in feed.entries[:40]:
-            title = entry.get('title', '').strip()
-            # 清理 HTML
-            summary = ''
-            raw_summary = entry.get('summary') or entry.get('description') or ''
-            if raw_summary:
-                summary = BeautifulSoup(raw_summary, 'html.parser').get_text()[:200].strip()
-            
-            link = ''
-            for lk in ['link', 'id']:
-                v = entry.get(lk, '')
-                if v and v.startswith('http'):
-                    link = v
-                    break
+        # GDELT Doc API
+        url = (
+            f"https://api.gdeltproject.org/api/v2/docseg/docseg?"
+            f"query={urllib.parse.quote(keyword)}&"
+            f"maxrecords={max_results}&"
+            f"format=json&"
+            f"sort=DateDesc&"
+            f"lang=English"
+        )
+        log.info(f"GDELT: querying '{keyword}'")
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        if resp.status_code != 200:
+            log.warning(f"GDELT HTTP {resp.status_code}")
+            return articles
 
-            if not keyword_match(title + ' ' + summary):
+        data = resp.json()
+        articles_data = data.get('articles', [])
+        log.info(f"GDELT '{keyword}': {len(articles_data)} articles")
+
+        for art in articles_data[:30]:
+            title = art.get('title', '').strip()
+            if not title or not keyword_match(title):
                 continue
-
-            # 解析时间
-            pub = entry.get('published_parsed') or entry.get('updated_parsed')
-            if pub:
-                dt = datetime(*pub[:6], tzinfo=timezone.utc).astimezone(CST)
-                time_str = dt.strftime('%m-%d %H:%M')
+            summary = art.get('seendate', '')[:50]
+            url_art = art.get('url', '')
+            source = art.get('domain', '')
+            raw_date = art.get('seendate', '')
+            # Format date
+            if raw_date and len(raw_date) >= 8:
+                time_str = raw_date[4:6] + '-' + raw_date[6:8] + ' ' + raw_date[8:10] + ':' + raw_date[10:12]
             else:
                 time_str = datetime.now(CST).strftime('%m-%d %H:%M')
 
             articles.append({
-                'id': make_id(title, source['name']),
+                'id': make_id(title, source),
                 'title': title,
                 'summary': summary,
-                'url': link,
-                'source': source['name'],
+                'url': url_art,
+                'source': source,
                 'time': time_str,
-                'category': classify(title, summary, source.get('category_hint', 'domestic')),
+                'category': classify(title, '', source),
                 'top': False,
             })
-            log.info(f"  + {title[:60]}")
-        log.info(f"  -> {len(articles)} articles from {source['name']}")
     except Exception as e:
-        log.warning(f"RSS failed {source['name']}: {e}")
+        log.warning(f"GDELT failed: {e}")
     return articles
 
 
-def deduplicate(articles: list) -> list:
+def fetch_newsapi(keyword, api_key=None):
+    """NewsAPI.org - 免费额度每天100条"""
+    if not api_key:
+        return []
+    articles = []
+    try:
+        url = (
+            f"https://newsapi.org/v2/everything?"
+            f"q={urllib.parse.quote(keyword)}&"
+            f"language=en&"
+            f"sortBy=publishedAt&"
+            f"pageSize=30&"
+            f"apiKey={api_key}"
+        )
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        if resp.status_code != 200:
+            log.warning(f"NewsAPI HTTP {resp.status_code}")
+            return articles
+        data = resp.json()
+        for art in data.get('articles', []):
+            title = art.get('title', '')
+            if not title or not keyword_match(title):
+                continue
+            articles.append({
+                'id': make_id(title, art.get('source', {}).get('name', '')),
+                'title': title,
+                'summary': art.get('description', '')[:200],
+                'url': art.get('url', ''),
+                'source': art.get('source', {}).get('name', ''),
+                'time': art.get('publishedAt', '')[:16].replace('T', ' '),
+                'category': classify(title, art.get('description', '')),
+                'top': False,
+            })
+    except Exception as e:
+        log.warning(f"NewsAPI failed: {e}")
+    return articles
+
+
+def deduplicate(articles):
     seen = set()
     result = []
     for a in articles:
@@ -180,7 +159,7 @@ def deduplicate(articles: list) -> list:
     return result
 
 
-def mark_top(articles: list, n: int = 3) -> list:
+def mark_top(articles, n=3):
     for i, a in enumerate(articles):
         a['top'] = (i < n)
     return articles
@@ -189,10 +168,27 @@ def mark_top(articles: list, n: int = 3) -> list:
 def main():
     all_articles = []
 
-    for src in RSS_SOURCES:
-        articles = fetch_rss(src)
+    # GDELT - multiple search queries
+    queries = [
+        'smuggling seizure customs',
+        'drug trafficking arrest',
+        'wildlife trafficking ivory',
+        'customs police raid',
+        'contraband border',
+    ]
+
+    for q in queries:
+        articles = fetch_gdelt(q, max_results=30)
         all_articles.extend(articles)
+        log.info(f"  -> total so far: {len(all_articles)}")
         time.sleep(0.5)
+
+    # NewsAPI (if key provided via env)
+    api_key = os.environ.get('NEWSAPI_KEY', '')
+    if api_key:
+        for q in ['smuggling customs', 'drug trafficking', 'wildlife crime']:
+            all_articles.extend(fetch_newsapi(q, api_key))
+            time.sleep(0.5)
 
     # 去重 + 排序
     all_articles = deduplicate(all_articles)
@@ -213,4 +209,5 @@ def main():
 
 
 if __name__ == '__main__':
+    import os
     main()
