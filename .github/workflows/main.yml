@@ -1,0 +1,10 @@
+anti-smuggling-news/
+├── index.html              # 前端页面
+├── data/
+│   └── news.json           # 新闻数据（自动生成）
+├── scripts/
+│   ├── fetch_news.py       # 抓取脚本
+│   └── requirements.txt    # Python 依赖
+└── .github/
+    └── workflows/
+        └── daily-update.yml  # 自动更新配置
