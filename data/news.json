@@ -1,94 +1,84 @@
 {
-  "updated": "2026-04-29 12:33",
-  "count": 10,
+  "updated": "2026-04-30 12:35",
+  "count": 9,
   "articles": [
     {
-      "id": "1e7b381d300f",
-      "title": "Mexican military captures top Jalisco cartel leader in major blow to powerful drug trafficking gang",
-      "summary": "The Mexican military has captured one of the top leaders of the Jalisco New Generation Cartel, the country’s most powerful criminal enterprise. The Monday capture of Audias Flor ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fc0a814bb799d5b7c7363fba15&amp;url=https%3a%2f%2fwww.aol.com%2fnews%2fmexican-military-captures-top-jalisco-064551083.html&amp;c=3042524758701726154&amp;mkt=en-us",
+      "id": "b3f433ae1d69",
+      "title": "US charges governor of Mexico’s Sinaloa state and 9 others with drug trafficking and weapons charges",
+      "summary": "A federal grand jury indicted the governor of Sinaloa and other Mexican state officials with drug trafficking and weapons charges for allegedly working with cartels to bring drugs into the United ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc122e434910b52118e972bf61b3&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fworld%2fus-charges-governor-of-mexico-s-sinaloa-state-and-9-others-with-drug-trafficking-and-weapons-charges%2far-AA222rL7&amp;c=5294615402157289060&amp;mkt=en-us",
       "source": "Bing News",
-      "time": "04-28 14:46",
+      "time": "04-30 00:08",
       "category": "domestic",
+      "top": true
+    },
+    {
+      "id": "6c520bc24171",
+      "title": "Delhi police bust cross-border arms network linked to drone smuggling, 9 arrested",
+      "summary": "Delhi Police’s special cell has seized 23 country made weapons and arrested nine people on charges of weapon trafficking. The accused, police said, worked for fugitive arms trafficker Shahbaz ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc146ebe4ce1a4247eaa1621aaf4&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fIndia%2fdelhi-police-bust-cross-border-arms-network-linked-to-drone-smuggling-9-arrested%2far-AA220Vz5&amp;c=11665387151361150129&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "04-29 19:05",
+      "category": "customs",
+      "top": true
+    },
+    {
+      "id": "2e6596d474b4",
+      "title": "UAE arrests 13-member gang involved in drug trafficking",
+      "summary": "The UAE National Drug Enforcement Authority said it had carried out a month-long joint operation with Dubai and Sharjah police and authorities in the Kingdom ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc122e434910b52118e972bf61b3&amp;url=https%3a%2f%2fwww.gulftoday.ae%2fnews%2f2026%2f04%2f29%2fuae-arrests-13-member-gang-involved-in-drug-trafficking&amp;c=4393759072911237163&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "04-29 13:41",
+      "category": "police",
       "top": true
     },
     {
       "id": "307e179b1157",
       "title": "Milwaukee south side landlord arrested for alleged drug trafficking",
       "summary": "Owner of S2 Real Estate Group, was arrested for several charges, including money laundering and conspiracy to maintaining a drug trafficking place.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fc0a814bb799d5b7c7363fba15&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2fmilwaukee-south-side-landlord-arrested-for-alleged-drug-trafficking%2far-AA21z3D3&amp;c=11684902474779829276&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc122e434910b52118e972bf61b3&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2fmilwaukee-south-side-landlord-arrested-for-alleged-drug-trafficking%2far-AA21z3D3&amp;c=11684902474779829276&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-23 19:46",
       "category": "police",
-      "top": true
+      "top": false
     },
     {
       "id": "163faef1ce08",
       "title": "Amritsar police bust cross-border drug-arms smuggling module, 3 arrested with meth and pistols",
       "summary": "The police have recovered 915 grams of ICE (methamphetamine) and five sophisticated pistols from their possession, said Director General of Police (DGP) Punjab, Gaurav Yadav, here on Thursday.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fec6f44144bc9df2095428f2e6&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fcrime%2fgeneral%2famritsar-police-bust-cross-border-drug-arms-smuggling-module-3-arrested-with-meth-and-pistols%2far-AA21yqPJ&amp;c=13058918568754219512&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc146ebe4ce1a4247eaa1621aaf4&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fcrime%2fgeneral%2famritsar-police-bust-cross-border-drug-arms-smuggling-module-3-arrested-with-meth-and-pistols%2far-AA21yqPJ&amp;c=13058918568754219512&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-23 14:27",
       "category": "customs",
-      "top": true
+      "top": false
     },
     {
       "id": "da53e178c8b2",
       "title": "Traffic stop nets third drug trafficking arrest in a week, Jackson County sheriff says",
       "summary": "Two people face multiple drug charges after a traffic stop in Jackson County led to the discovery of fentanyl, methamphetamine, and cash.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fc0a814bb799d5b7c7363fba15&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2ftraffic-stop-nets-third-drug-trafficking-arrest-in-a-week-jackson-county-sheriff-says%2far-AA21yl8H&amp;c=10538112728909678988&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc122e434910b52118e972bf61b3&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2ftraffic-stop-nets-third-drug-trafficking-arrest-in-a-week-jackson-county-sheriff-says%2far-AA21yl8H&amp;c=10538112728909678988&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-23 13:19",
       "category": "police",
       "top": false
     },
     {
-      "id": "d3396c5e346c",
-      "title": "Amritsar: Police bust cross-border weapon smuggling module, 3 nabbed",
-      "summary": "Amritsar Commissionerate Police busted a cross-border weapon smuggling module, arresting three individuals and seizing six pistols. The racket used drones for drops and had inter-state supply chains, ",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fec6f44144bc9df2095428f2e6&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fcrime%2fgeneral%2famritsar-police-bust-cross-border-weapon-smuggling-module-3-nabbed%2far-AA21kc8S&amp;c=5657289283529302987&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-20 17:00",
-      "category": "customs",
-      "top": false
-    },
-    {
       "id": "6a144c40ddb1",
       "title": "Police Bust Human Smuggling Ring After Arresting Two Teenage ‘Scouts’ In Kelantan",
       "summary": "Two teenage girls were arrested in Tumpat, Kelantan, on Sunday, 19 April, after being caught acting as scouts for a syndicate smuggling illegal immigrants into the country The suspects, aged 17 and 18",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fec6f44144bc9df2095428f2e6&amp;url=https%3a%2f%2fsays.com%2fmy%2fnews%2fteen-scouts-human-smuggling-arrest-kelantan&amp;c=16452219712582534380&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc146ebe4ce1a4247eaa1621aaf4&amp;url=https%3a%2f%2fsays.com%2fmy%2fnews%2fteen-scouts-human-smuggling-arrest-kelantan&amp;c=16452219712582534380&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-20 16:01",
       "category": "police",
       "top": false
     },
     {
-      "id": "98c46ffa6f6b",
-      "title": "Wausau drug trafficking investigation leads to arrest, seizure of fentanyl, meth, and cocaine",
-      "summary": "Wausau police arrested a man they say has been trafficking drugs from the Milwaukee area to Wausau.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fc0a814bb799d5b7c7363fba15&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2fwausau-drug-trafficking-investigation-leads-to-arrest-seizure-of-fentanyl-meth-and-cocaine%2far-AA20YfSl&amp;c=8952789068061996045&amp;mkt=en-us",
+      "id": "41ecf5dc428f",
+      "title": "Amritsar Police bust cross-border weapon smuggling module, 3 Arrested",
+      "summary": "In a major crackdown, the Amritsar Commissionerate Police have dismantled a weapon smuggling module involving cross-border drone drops and inter-state supply chains, officials said on Monday.",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc146ebe4ce1a4247eaa1621aaf4&amp;url=https%3a%2f%2fwww.aninews.in%2fnews%2fnational%2fgeneral-news%2famritsar-police-bust-cross-border-weapon-smuggling-module-3-arrested20260420211058%2f&amp;c=9051161379321751427&amp;mkt=en-us",
       "source": "Bing News",
-      "time": "04-16 01:35",
-      "category": "customs",
-      "top": false
-    },
-    {
-      "id": "077f4067399f",
-      "title": "Coventry police arrest 2 on drug trafficking charges",
-      "summary": "The Coventry Police Department said that two men were arrested as part of a months-long investgiation into a drug trafficking organization.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fc0a814bb799d5b7c7363fba15&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2fcoventry-police-arrest-2-on-drug-trafficking-charges%2far-AA20YLRd&amp;c=16885284601202632624&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-16 00:13",
-      "category": "police",
-      "top": false
-    },
-    {
-      "id": "31307c3553ff",
-      "title": "Punjab Police bust cross-border smuggling module, six pistols seized",
-      "summary": "Chandigarh: Amritsar Commissionerate Police has busted a cross-border illegal arms smuggling module with the arrest of three accused and recovered six sophisticated pistols from their ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189fec6f44144bc9df2095428f2e6&amp;url=https%3a%2f%2fwww.thehansindia.com%2fnews%2fnational%2fpunjab-police-bust-cross-border-smuggling-module-six-pistols-seized-1065735&amp;c=6560665524525148823&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-14 22:25",
+      "time": "04-20 14:40",
       "category": "customs",
       "top": false
     },
@@ -96,7 +86,7 @@
       "id": "00445aebb4d1",
       "title": "‘Contraband: Seized at the Airport’ shows officers closing in on drug smuggler during season 2 premiere",
       "summary": "The popular Discovery Channel series Contraband: Seized at the Airport returns to the network with its season two premiere Monday, March 2 at 8/7c. During the season two premiere episode, officers are",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f189ff07e04edba1e5b0551aec9182&amp;url=https%3a%2f%2fwww.al.com%2ftv%2f2026%2f03%2fcontraband-seized-at-the-airport-shows-officers-closing-in-on-drug-smuggler-during-season-2-premiere.html&amp;c=1118356486176266357&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f2dc15942649bfa3a618b175fb3c06&amp;url=https%3a%2f%2fwww.al.com%2ftv%2f2026%2f03%2fcontraband-seized-at-the-airport-shows-officers-closing-in-on-drug-smuggler-during-season-2-premiere.html&amp;c=1118356486176266357&amp;mkt=en-us",
       "source": "Bing News",
       "time": "03-02 11:12",
       "category": "customs",
