@@ -1,64 +1,104 @@
 {
-  "updated": "2026-05-03 12:43",
-  "count": 12,
+  "updated": "2026-05-04 12:43",
+  "count": 13,
   "articles": [
+    {
+      "id": "a4a41fb28c1b",
+      "title": "Drug trafficking arrest made in Boston",
+      "summary": "A man was arrested on drug trafficking charges in the Back Bay neighborhood Saturday afternoon following a brief struggle with police. Keith Curtis, 40, of Athol, was taken into custody at ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fwww.newportdispatch.com%2f2026%2f05%2f03%2fdrug-trafficking-arrest-made-in-boston%2f&amp;c=14292332254696500564&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-04 02:34",
+      "category": "police",
+      "top": true
+    },
+    {
+      "id": "224027e25886",
+      "title": "Punjab Police arrest four in cross-border arms smuggling case",
+      "summary": "Punjab Police have arrested four men in Amritsar for allegedly running a cross-border arms smuggling operation, recovering seven pistols of Austrian and Chinese make. Officials said the weapons were .",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823eb3ba947dc9ccf3f924a603ec3&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fpunjab-police-arrest-four-in-cross-border-arms-smuggling-case%2fgm-GMA35DDD33&amp;c=5073760812327965756&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-04 00:53",
+      "category": "customs",
+      "top": true
+    },
+    {
+      "id": "26751fecce94",
+      "title": "Gold, electronic items, contraband worth Rs 1.79 cr seized at Mumbai airport",
+      "summary": "The Customs department has seized electronic items, cosmetics, cigarettes and crude gold cumulatively worth more than Rs 1.79 crore from passengers arriving at Mumbai`s Chhatrapati Shivaji Maharaj ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823eb74164a27a68dcd28f9bcb7f8&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fcrime%2fgeneral%2fgold-electronic-items-contraband-worth-rs-1-79-cr-seized-at-mumbai-airport%2far-AA22i8TK&amp;c=17222496633334660759&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-03 18:43",
+      "category": "customs",
+      "top": true
+    },
+    {
+      "id": "96a3cac367a3",
+      "title": "Punjab Police bust cross-border arms smuggling module, four held with seven pistols",
+      "summary": "In a major breakthrough in the ongoing drive to make Punjab a safe and secure state, the Punjab Police has dismantled a cross-border arms smuggling module with the arrest of four accused and the ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823eb3ba947dc9ccf3f924a603ec3&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fpunjab-police-bust-cross-border-arms-smuggling-module-four-held-with-seven-pistols%2far-AA22iqOS&amp;c=15458370353506126196&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-03 14:40",
+      "category": "customs",
+      "top": false
+    },
+    {
+      "id": "2d56e2b451a8",
+      "title": "NDLEA arrests 83-year-old, 78-year-old grandpas for drug trafficking in Abia, Ekiti",
+      "summary": "As at the time of his arrest, 700 grams of skunk, a strain of cannabis, packaged in retail sachets were recovered from him.&quot; ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fpmnewsnigeria.com%2f2026%2f05%2f03%2fndlea-arrests-83-year-old-78-year-old-grandpas-for-drug-trafficking-in-abia-ekiti%2f&amp;c=6726780100301287722&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-03 13:09",
+      "category": "police",
+      "top": false
+    },
+    {
+      "id": "5f95a5fec3ae",
+      "title": "NDELA Arrests Two Grandpas For drug Trafficking in Abia, Ekiti",
+      "summary": "The National Drug Law Enforcement Agency says it has arrested an 83-year-old man, Pa John Ofiel, and a 78-year-old man, Ogunjobi Samuel, in separate ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fwww.informationng.com%2f2026%2f05%2fndela-arrests-two-grandpas-for-drug-trafficking-in-abia-ekiti.html&amp;c=5007190112904059232&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-03 11:08",
+      "category": "police",
+      "top": false
+    },
+    {
+      "id": "50296be7c801",
+      "title": "Grandpas arrested for drug trafficking in Abia, Ekiti",
+      "summary": "Operatives of the National Drug Law Enforcement Agency, NDLEA, have arrested two elderly men, aged 83 and 78, in separate operations in Abia and Ekiti ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fdailypost.ng%2f2026%2f05%2f03%2fgrandpas-arrested-for-drug-trafficking-in-abia-ekiti%2f&amp;c=18090004665205349349&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "05-03 10:11",
+      "category": "police",
+      "top": false
+    },
     {
       "id": "90b96d7c6a01",
       "title": "Two Nigerians Arrested By Indian Police For Drug Trafficking, Expired Visas",
       "summary": "Two Nigerian nationals have been intercepted and arrested by the Indian police in South Delhi for their alleged involvement in a drug peddling syndicate. The suspects, identified as Chijioke Wisdom, .",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d260e426438780f53989eb7e3b70&amp;url=https%3a%2f%2fsaharareporters.com%2f2026%2f05%2f02%2ftwo-nigerians-arrested-indian-police-drug-trafficking-expired-visas&amp;c=10440212885307184972&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fsaharareporters.com%2f2026%2f05%2f02%2ftwo-nigerians-arrested-indian-police-drug-trafficking-expired-visas&amp;c=10440212885307184972&amp;mkt=en-us",
       "source": "Bing News",
       "time": "05-02 13:41",
       "category": "police",
-      "top": true
+      "top": false
     },
     {
       "id": "b3f433ae1d69",
       "title": "US charges governor of Mexico’s Sinaloa state and 9 others with drug trafficking and weapons charges",
       "summary": "A federal grand jury indicted the governor of Sinaloa and other Mexican state officials with drug trafficking and weapons charges for allegedly working with cartels to bring drugs into the United ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d260e426438780f53989eb7e3b70&amp;url=https%3a%2f%2fwww.cnn.com%2f2026%2f04%2f29%2fpolitics%2fus-charges-mexican-officals-drug-trafficking-weapons&amp;c=8520009194492565752&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fwww.cnn.com%2f2026%2f04%2f29%2fpolitics%2fus-charges-mexican-officals-drug-trafficking-weapons&amp;c=8520009194492565752&amp;mkt=en-us",
       "source": "Bing News",
       "time": "05-01 17:41",
       "category": "domestic",
-      "top": true
-    },
-    {
-      "id": "0c81e913c722",
-      "title": "Police Seize 6 Million Meth Pills in Chiang Rai Smuggling Bust",
-      "summary": "On the morning of April 29, 2026, Thai Border Patrol Police arrested three suspects and seized a staggering 6 million methamphetamine pills ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d26269d840f69c2d6c759ffb0720&amp;url=https%3a%2f%2fwww.chiangraitimes.com%2fnews%2fchiang-rai%2fchiang-rai-smuggling-bust%2f&amp;c=1082883648022763009&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-30 09:52",
-      "category": "customs",
-      "top": true
+      "top": false
     },
     {
       "id": "288c17121e71",
       "title": "U.S. DOJ charges Mexican governor and 9 others with drug trafficking offenses",
       "summary": "The former and current officials from the state of Sinaloa are accused of conspiring with cartel leaders in exchange for bribes and political support.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d260e426438780f53989eb7e3b70&amp;url=https%3a%2f%2fwww.kjzz.org%2ffronteras-desk%2f2026-04-29%2fu-s-doj-charges-mexican-governor-and-9-others-with-drug-trafficking-offenses&amp;c=17899161317724699409&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fwww.kjzz.org%2ffronteras-desk%2f2026-04-29%2fu-s-doj-charges-mexican-governor-and-9-others-with-drug-trafficking-offenses&amp;c=17899161317724699409&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-29 22:37",
-      "category": "customs",
-      "top": false
-    },
-    {
-      "id": "1e7b381d300f",
-      "title": "Mexican military captures top Jalisco cartel leader in major blow to powerful drug trafficking gang",
-      "summary": "The Mexican military has captured one of the top leaders of the Jalisco New Generation Cartel, the country’s most powerful criminal enterprise. The Monday capture of Audias Flor ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d260e426438780f53989eb7e3b70&amp;url=https%3a%2f%2fwww.aol.com%2farticles%2fmexican-military-captures-top-jalisco-064551083.html&amp;c=12868923898510337395&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-28 14:46",
-      "category": "domestic",
-      "top": false
-    },
-    {
-      "id": "163faef1ce08",
-      "title": "Amritsar police bust cross-border drug-arms smuggling module, 3 arrested with meth and pistols",
-      "summary": "The police have recovered 915 grams of ICE (methamphetamine) and five sophisticated pistols from their possession, said Director General of Police (DGP) Punjab, Gaurav Yadav, here on Thursday.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d26269d840f69c2d6c759ffb0720&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fcrime%2fgeneral%2famritsar-police-bust-cross-border-drug-arms-smuggling-module-3-arrested-with-meth-and-pistols%2far-AA21yqPJ&amp;c=13058918568754219512&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-23 14:27",
       "category": "customs",
       "top": false
     },
@@ -66,19 +106,9 @@
       "id": "da53e178c8b2",
       "title": "Traffic stop nets third drug trafficking arrest in a week, Jackson County sheriff says",
       "summary": "Two people face multiple drug charges after a traffic stop in Jackson County led to the discovery of fentanyl, methamphetamine, and cash.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d260e426438780f53989eb7e3b70&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2ftraffic-stop-nets-third-drug-trafficking-arrest-in-a-week-jackson-county-sheriff-says%2far-AA21yl8H&amp;c=10538112728909678988&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e821f14e5cb06228ee56a77a2b&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2ftraffic-stop-nets-third-drug-trafficking-arrest-in-a-week-jackson-county-sheriff-says%2far-AA21yl8H&amp;c=10538112728909678988&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-23 13:19",
-      "category": "police",
-      "top": false
-    },
-    {
-      "id": "6a144c40ddb1",
-      "title": "Police Bust Human Smuggling Ring After Arresting Two Teenage ‘Scouts’ In Kelantan",
-      "summary": "Two teenage girls were arrested in Tumpat, Kelantan, on Sunday, 19 April, after being caught acting as scouts for a syndicate smuggling illegal immigrants into the country The suspects, aged 17 and 18",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d26269d840f69c2d6c759ffb0720&amp;url=https%3a%2f%2fsays.com%2fmy%2fnews%2fteen-scouts-human-smuggling-arrest-kelantan&amp;c=16452219712582534380&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "04-20 16:01",
       "category": "police",
       "top": false
     },
@@ -86,40 +116,20 @@
       "id": "41ecf5dc428f",
       "title": "Amritsar Police bust cross-border weapon smuggling module, 3 Arrested",
       "summary": "In a major crackdown, the Amritsar Commissionerate Police have dismantled a weapon smuggling module involving cross-border drone drops and inter-state supply chains, officials said on Monday.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d26269d840f69c2d6c759ffb0720&amp;url=https%3a%2f%2fwww.aninews.in%2fnews%2fnational%2fgeneral-news%2famritsar-police-bust-cross-border-weapon-smuggling-module-3-arrested20260420211058%2f&amp;c=9051161379321751427&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823eb3ba947dc9ccf3f924a603ec3&amp;url=https%3a%2f%2fwww.aninews.in%2fnews%2fnational%2fgeneral-news%2famritsar-police-bust-cross-border-weapon-smuggling-module-3-arrested20260420211058%2f&amp;c=9051161379321751427&amp;mkt=en-us",
       "source": "Bing News",
       "time": "04-20 14:40",
       "category": "customs",
       "top": false
     },
     {
-      "id": "64f6924471f0",
-      "title": "Court grants bail in OR Tambo drug trafficking case",
-      "summary": "The state argued that similarities in the accounts, method of concealment, and international travel arrangements pointed to an organised syndicate. The state argued that the accounts, method of ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d260e426438780f53989eb7e3b70&amp;url=https%3a%2f%2fwww.citizen.co.za%2fkempton-express%2fnews-headlines%2flocal-crime-news%2f2026%2f04%2f14%2fcourt-grants-bail-in-or-tambo-drug-trafficking-case%2f&amp;c=13242347717339141829&amp;mkt=en-us",
+      "id": "05fb20544b64",
+      "title": "A Landmark International Agreement to Halt Wildlife Trafficking Is Just the Beginning",
+      "summary": "Leading nations gathered in London this week for the highest-level meeting ever to tackle the illegal trade in wildlife products. Illegal wildlife trafficking—the unlawful slaughter of endangered ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f823e9f3dd4296a431b56a212acd30&amp;url=https%3a%2f%2ftime.com%2farchive%2f7218292%2fa-landmark-international-agreement-to-halt-wildlife-trafficking-is-just-the-beginning%2f&amp;c=15742079721373582618&amp;mkt=en-us",
       "source": "Bing News",
-      "time": "04-14 17:45",
+      "time": "02-13 23:59",
       "category": "international",
-      "top": false
-    },
-    {
-      "id": "fe47024b72b4",
-      "title": "Authorities deal major blow to traffickers after arresting 3 suspects, seizing nearly 100 lbs of elephant ivory",
-      "summary": "Add Yahoo as a preferred source to see more of our stories on Google. Photo Credit: iStock Authorities in Kenya arrested three suspects after they allegedly attempted to smuggle 42 kilograms of ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d2604fad4e7b9b4a5b0d0717793e&amp;url=https%3a%2f%2fwww.yahoo.com%2fnews%2farticles%2fauthorities-deal-major-blow-traffickers-180000808.html&amp;c=18252971019789488533&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "03-27 19:00",
-      "category": "police",
-      "top": false
-    },
-    {
-      "id": "00445aebb4d1",
-      "title": "‘Contraband: Seized at the Airport’ shows officers closing in on drug smuggler during season 2 premiere",
-      "summary": "The popular Discovery Channel series Contraband: Seized at the Airport returns to the network with its season two premiere Monday, March 2 at 8/7c. During the season two premiere episode, officers are",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=69f6d2636d364c72aa6ff912dd44bc5d&amp;url=https%3a%2f%2fwww.al.com%2ftv%2f2026%2f03%2fcontraband-seized-at-the-airport-shows-officers-closing-in-on-drug-smuggler-during-season-2-premiere.html&amp;c=1118356486176266357&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "03-02 11:12",
-      "category": "customs",
       "top": false
     }
   ]
