@@ -1,62 +1,102 @@
 {
-  "updated": "2026-07-16 12:12",
-  "count": 11,
+  "updated": "2026-07-17 12:12",
+  "count": 14,
   "articles": [
+    {
+      "id": "ec283774ea99",
+      "title": "Bentonville man facing decades in prison if convicted of drug trafficking charge related to Springdale arrest",
+      "summary": "A Bentonville man already facing the possibility of decades in prison on a charge of trafficking methamphetamine is once again in the Washington County Detention Center after being accused of failing ",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9adaa64cf9bbf0ef51386f91a1&amp;url=https%3a%2f%2fwww.arkansasonline.com%2fnews%2f2026%2fjul%2f16%2fbentonville-man-facing-decades-in-prison-if%2f&amp;c=8705260651283978170&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "07-16 16:30",
+      "category": "police",
+      "top": true
+    },
+    {
+      "id": "e6389c4e3273",
+      "title": "Customs foils RM1.3mil pangolin scale smuggling bid in Sandakan",
+      "summary": "SANDAKAN: The Royal Malaysian Customs Department has foiled an attempt to smuggle 100kg of pangolin scales worth RM1.3mil, intercepting the shipment at the Sandakan Airport cargo terminal earlier this",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9a55f54defae4e1a3722d942cc&amp;url=https%3a%2f%2fwww.thestar.com.my%2fnews%2fnation%2f2026%2f07%2f16%2fcustoms-foils-rm13mil-pangolin-scale-smuggling-bid-in-sandakan&amp;c=5325772889504005718&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "07-16 14:56",
+      "category": "customs",
+      "top": true
+    },
+    {
+      "id": "eb879e58accc",
+      "title": "Two police among those arrested in bust of migrant smuggling across Bulgarian-Serbian border",
+      "summary": "Serbian authorities arrested several suspects, including two police officers in an investigation involving Bulgarian law enforcement, in a bust of a migrant smuggling network active across the ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9c367f4c649529802dc883a413&amp;url=https%3a%2f%2fsofiaglobe.com%2f2026%2f07%2f16%2ftwo-police-among-those-arrested-in-bust-of-migrant-smuggling-across-bulgarian-serbian-border%2f&amp;c=3124637030335210617&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "07-16 09:04",
+      "category": "customs",
+      "top": true
+    },
+    {
+      "id": "47f20ae79a7b",
+      "title": "Birmingham police arrest Bessemer man for drug trafficking",
+      "summary": "BIRMINGHAM, Ala. (WIAT) –The Birmingham Police Department arrested a Bessemer man for drug trafficking Wednesday. According to the BPD, 25-year-old Bryant Cornner was arrested following a narcotics ..",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9adaa64cf9bbf0ef51386f91a1&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2fbirmingham-police-arrest-bessemer-man-for-drug-trafficking%2far-AA280aTx&amp;c=14480844932434532019&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "07-16 03:44",
+      "category": "police",
+      "top": false
+    },
     {
       "id": "0533d34fce56",
       "title": "Morocco Arrests German National Wanted for Drug Trafficking, Arson",
       "summary": "Moroccan police arrested a 35-year-old German national at Mohammed V International Airport in Casablanca on Saturday.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a394c894e9b9dc3e49730ca7e91&amp;url=https%3a%2f%2fwww.moroccoworldnews.com%2f2026%2f07%2f328816%2fmorocco-arrests-german-national-wanted-for-drug-trafficking-arson%2f&amp;c=14358549966952685473&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9adaa64cf9bbf0ef51386f91a1&amp;url=https%3a%2f%2fwww.moroccoworldnews.com%2f2026%2f07%2f328816%2fmorocco-arrests-german-national-wanted-for-drug-trafficking-arson%2f&amp;c=14358549966952685473&amp;mkt=en-us",
       "source": "Bing News",
       "time": "07-12 17:10",
       "category": "international",
-      "top": true
+      "top": false
     },
     {
       "id": "bd5c1430f7a4",
       "title": "16 Arrested, 22 charged in Putnam County drug trafficking operation",
       "summary": "Putnam County authorities and six state and federal agencies arrested 16 people and charged 22 total on drug trafficking offenses Thursday.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a394c894e9b9dc3e49730ca7e91&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2f16-arrested-22-charged-in-putnam-county-drug-trafficking-operation%2far-AA27Byje&amp;c=12024581515902681979&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9adaa64cf9bbf0ef51386f91a1&amp;url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fcrime%2f16-arrested-22-charged-in-putnam-county-drug-trafficking-operation%2far-AA27Byje&amp;c=12024581515902681979&amp;mkt=en-us",
       "source": "Bing News",
       "time": "07-10 01:12",
       "category": "police",
-      "top": true
+      "top": false
     },
     {
       "id": "1c0609846e93",
       "title": "FBI and DEA agents raid home in Harlan Co., arrest man on drug trafficking and human trafficking charges",
       "summary": "A Loyall man was arrested Wednesday morning on charges related to drug trafficking and human trafficking following a investigation involving local, state, and federal law enforcement. Darrell Carnahan",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a394c894e9b9dc3e49730ca7e91&amp;url=https%3a%2f%2fwww.wymt.com%2f2026%2f07%2f08%2ffbi-dea-agents-raid-home-harlan-co-arrest-man-drug-trafficking-human-trafficking-charges%2f&amp;c=4851443923296788620&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9adaa64cf9bbf0ef51386f91a1&amp;url=https%3a%2f%2fwww.wymt.com%2f2026%2f07%2f08%2ffbi-dea-agents-raid-home-harlan-co-arrest-man-drug-trafficking-human-trafficking-charges%2f&amp;c=4851443923296788620&amp;mkt=en-us",
       "source": "Bing News",
       "time": "07-08 22:42",
       "category": "police",
-      "top": true
+      "top": false
+    },
+    {
+      "id": "68a225cdf89f",
+      "title": "Punjab Police bust ISI-backed arms smuggling module, arrest 3, seize 6 grenades and 12 pistols",
+      "summary": "In a major breakthrough, Counter Intelligence (CI) Amritsar busted an illegal arms and explosives smuggling module, arresting three individuals and recovering six hand grenades and 12 sophisticated ..",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9c367f4c649529802dc883a413&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fpunjab-police-bust-isi-backed-arms-smuggling-module-arrest-3-seize-6-grenades-and-12-pistols%2far-AA27uglj&amp;c=11972786511035890995&amp;mkt=en-us",
+      "source": "Bing News",
+      "time": "07-08 14:55",
+      "category": "police",
+      "top": false
     },
     {
       "id": "a64d3b722f23",
       "title": "Punjab Police bust smuggling network; three held, 25 kg heroin seized",
       "summary": "Amritsar has busted a narcotics smuggling network with the arrest of three people and recovered 25 kg of heroin from their possession, ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a3b77d542d0a5858e7cd205f962&amp;url=https%3a%2f%2fwww.thehansindia.com%2fnews%2fnational%2fpunjab-police-bust-smuggling-network-three-held-25-kg-heroin-seized-1094855&amp;c=422223866523730172&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9c367f4c649529802dc883a413&amp;url=https%3a%2f%2fwww.thehansindia.com%2fnews%2fnational%2fpunjab-police-bust-smuggling-network-three-held-25-kg-heroin-seized-1094855&amp;c=422223866523730172&amp;mkt=en-us",
       "source": "Bing News",
       "time": "07-07 16:00",
       "category": "police",
       "top": false
     },
     {
-      "id": "bb4d57583f2e",
-      "title": "Amritsar police bust cross-border arms smuggling module, arrest two; seven pistols seized",
-      "summary": "Amritsar Commissionerate Police have busted an alleged cross-border arms smuggling module, arresting two suspected traffickers and recovering seven sophisticated pistols and 40 live cartridges. Police",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a3b77d542d0a5858e7cd205f962&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fIndia%2famritsar-police-bust-cross-border-arms-smuggling-module-arrest-two-seven-pistols-seized%2far-AA26XSfD&amp;c=10163461566326787580&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "07-01 09:04",
-      "category": "customs",
-      "top": false
-    },
-    {
       "id": "a4e2c44d2d55",
       "title": "Morocco Arrests Six Algerians Suspected of Forgery and Drug Trafficking",
       "summary": "Moroccan police have arrested six Algerian nationals for their alleged involvement in a criminal network active in document forgery.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a394c894e9b9dc3e49730ca7e91&amp;url=https%3a%2f%2fwww.moroccoworldnews.com%2f2026%2f06%2f326057%2fmorocco-arrests-six-algerians-suspected-of-forgery-and-drug-trafficking%2f&amp;c=2623513706481823879&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9adaa64cf9bbf0ef51386f91a1&amp;url=https%3a%2f%2fwww.moroccoworldnews.com%2f2026%2f06%2f326057%2fmorocco-arrests-six-algerians-suspected-of-forgery-and-drug-trafficking%2f&amp;c=2623513706481823879&amp;mkt=en-us",
       "source": "Bing News",
       "time": "06-30 01:01",
       "category": "police",
@@ -66,7 +106,7 @@
       "id": "1ad51de9ccdf",
       "title": "Amritsar police bust alleged Pakistan-linked drone arms smuggling module, arrest 4",
       "summary": "Amritsar Police claimed to have busted a Pakistan-linked cross-border drone arms smuggling module, arresting four accused and recovering 10 sophisticated pistols during an intelligence-led operation.",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a3b77d542d0a5858e7cd205f962&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fIndia%2famritsar-police-bust-alleged-pakistan-linked-drone-arms-smuggling-module-arrest-4%2far-AA26FTWw&amp;c=11941709676037099747&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9c367f4c649529802dc883a413&amp;url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fIndia%2famritsar-police-bust-alleged-pakistan-linked-drone-arms-smuggling-module-arrest-4%2far-AA26FTWw&amp;c=11941709676037099747&amp;mkt=en-us",
       "source": "Bing News",
       "time": "06-27 10:48",
       "category": "customs",
@@ -76,19 +116,9 @@
       "id": "4107d73275f8",
       "title": "Contraband: Seized at the Border: The hit Discovery Channel border security show is back for Season 9",
       "summary": "Fans of border security investigations won’t want to miss the return of “Contraband: Seized at the Border.” The hit Discovery Channel series is back for its ninth season, continuing to provide an ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a3c26374a3da118640180e7f5f1&amp;url=https%3a%2f%2fwww.pennlive.com%2ftv%2f2026%2f06%2fcontraband-seized-at-the-border-the-hit-discovery-channel-border-security-show-is-back-for-season-9.html&amp;c=6143237370016881149&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9d8ebe43e8b2664d20b40ff7ea&amp;url=https%3a%2f%2fwww.pennlive.com%2ftv%2f2026%2f06%2fcontraband-seized-at-the-border-the-hit-discovery-channel-border-security-show-is-back-for-season-9.html&amp;c=6143237370016881149&amp;mkt=en-us",
       "source": "Bing News",
       "time": "06-15 10:05",
-      "category": "customs",
-      "top": false
-    },
-    {
-      "id": "60bd289dc3cf",
-      "title": "Movie-like smuggling attempt: Gold biscuits worth Rs 4.27 cr seized from IndiGo flight's speaker box",
-      "summary": "Customs officials at Ahmedabad's SVPI Airport seized 24 gold biscuits worth Rs 4.27 crore from a speaker box inside an IndiGo flight arriving from Dubai. Netizens called it a real-life ‘Taskaree’ plot",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a39048145dfa9ca6e09ae12ecad&amp;url=https%3a%2f%2fwww.moneycontrol.com%2fnews%2ftrends%2fmovie-like-smuggling-attempt-gold-biscuits-worth-rs-4-27-cr-seized-from-indigo-flight-s-speaker-box-13948827.html&amp;c=1057116403717581418&amp;mkt=en-us",
-      "source": "Bing News",
-      "time": "06-13 18:34",
       "category": "customs",
       "top": false
     },
@@ -96,7 +126,7 @@
       "id": "3144d516d5e4",
       "title": "Punjab Police Uncovers Major Cross-Border Arms And Drug Smuggling Network",
       "summary": "Amritsar police have successfully dismantled a cross-border illegal arms and drug smuggling module, arresting two individuals and recovering over 2 kg of heroin and six sophisticated pistols. The ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a3b77d542d0a5858e7cd205f962&amp;url=https%3a%2f%2fwww.rediff.com%2fnews%2freport%2fcross-border-arms-drug-smuggling-module-busted-in-amritsar%2f20260603.htm&amp;c=4870505595188095875&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9c367f4c649529802dc883a413&amp;url=https%3a%2f%2fwww.rediff.com%2fnews%2freport%2fcross-border-arms-drug-smuggling-module-busted-in-amritsar%2f20260603.htm&amp;c=4870505595188095875&amp;mkt=en-us",
       "source": "Bing News",
       "time": "06-03 18:55",
       "category": "customs",
@@ -106,7 +136,7 @@
       "id": "05fb20544b64",
       "title": "A Landmark International Agreement to Halt Wildlife Trafficking Is Just the Beginning",
       "summary": "Follow this author to personalize your feed and get instant alerts. WHY FOLLOW? Update your preferences in Account Settings Protesters outside the London Conference call for an end to wildlife ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a585a3ac5f049fa8f571c734c8a8808&amp;url=https%3a%2f%2ftime.com%2farchive%2f7218292%2fa-landmark-international-agreement-to-halt-wildlife-trafficking-is-just-the-beginning%2f&amp;c=15742079721373582618&amp;mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6a59ab9b15dd4ceca6d354f7e6fce1db&amp;url=https%3a%2f%2ftime.com%2farchive%2f7218292%2fa-landmark-international-agreement-to-halt-wildlife-trafficking-is-just-the-beginning%2f&amp;c=15742079721373582618&amp;mkt=en-us",
       "source": "Bing News",
       "time": "02-14 07:00",
       "category": "international",
